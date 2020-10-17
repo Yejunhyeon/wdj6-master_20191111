@@ -1,0 +1,214 @@
+#mainNav {
+  border-bottom: 1px solid black;
+  margin-bottom: 5px;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#mainNav .navbar-nav > li.nav-item > a {
+  font-weight: 900;
+  padding: 0px 20px;
+}
+
+.page-header{
+  margin-top: 3%;
+  color: black;
+}
+
+@media only screen and (min-width: 768px) {
+  /* 반응형 768 이상 */
+}
+
+@media only screen and (max-width: 767px) {
+  /* 반응형 768 이하 */
+}
+
+.spanDiv > span {
+  border:1px solid black;
+  padding: 5px;
+}
+
+/* 추가 */
+
+.create-header{
+  margin-top:15px;
+  }
+  .program-title{
+  display: inline-block;
+  margin: 5px !important;
+  }
+  .create-title{
+  margin-top:auto;
+  margin-bottom:auto;
+  display: inline-block;
+  }
+  .program-button{
+  float: right;
+  display: inline-block;
+  margin: 5px !important;
+  }
+  .create-button{
+  margin-top:auto;
+  margin-bottom:auto;
+  float: right;
+  display: inline-block;
+  margin: 5px !important;
+  }
+  .card {
+  position: relative;
+  display: -webkit-box;
+  display: flex;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  margin-bottom:10px;
+  overflow:hidden;
+  }
+  .card-imgbox{
+  max-height: 250px;
+  margin: 5px;
+  }
+  .cardimg{
+  margin: 5px;
+  max-width: 100%;
+  width:100%;
+  border-radius: 0.25rem;
+  }
+  .card-body {
+  margin: 5px;
+  -webkit-box-flex: 1;
+          flex: 1 1 auto;
+  min-height: 1px;
+  max-height: 250px;
+  padding: 1.25rem;
+  overflow:hidden;
+  }
+  .card-information{
+  display: flex;
+  margin-bottom:10px;
+  margin-left:0;
+  overflow:hidden;
+  }
+  .card-information-name{
+  margin-left:-2%;
+  margin-top:auto;
+  margin-bottom:auto;
+  overflow:hidden;
+  }
+  .card-information-time{
+  margin-left:-2%;
+  margin-top:auto;
+  margin-bottom:auto;
+  overflow:hidden;
+  }
+  .card-content{
+      max-height:100px;
+      overflow:hidden;
+  }
+  .create-form{
+      display:none;
+  }
+  .program-paginator{
+      margin:10px 0 0 0;
+  }
+  .paginator{
+      display:inline-block;
+      margin:0 auto;
+  }
+  .carousel-div{
+      border: 4px solid rgba(0, 0, 0, 0.125);
+      border-radius: 0.25rem;
+      margin-bottom:20px;
+  }
+  .carousels{
+      position: relative;
+  }
+  .carousels-inner{
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+  }
+  .carousel-item{
+      text-align:center;
+      background-color:black;
+  }
+  .carousel-img{
+      margin-top:5px;
+      margin-bottom:5px;
+      border-radius: 0.5rem;
+      max-height:500px;
+      max-width: 100%;
+  }
+  .carousel-title{
+      font-size:5em;
+      overflow:hidden;
+      /* max-width:50%; */
+      margin-bottom: 100px;
+      color:white;
+      font-weight: 800;
+      text-align: center;
+      text-shadow: 0 0 5px black;
+  }
+  .show-div{
+      margin: 1px;
+      border: 1px solid rgba(0, 0, 0, 0.125);
+      border-radius: 0.25rem;
+  }
+  .show-form{
+      border: 1px solid rgba(0, 0, 0, 0.125);
+      border-radius: 0.25rem;
+      display:none;
+  }
+  .show{
+      display:none;
+  }
+  .show-header{
+      border: 1px solid rgba(0, 0, 0, 0.125);
+      border-radius: 0.25rem;
+      overflow:hidden;
+      margin-top:10px;
+      margin-left:auto;
+      margin-right:auto;
+  }
+  .show-body{
+      border: 1px solid rgba(0, 0, 0, 0.125);
+      border-radius: 0.25rem;
+      overflow:hidden;
+      margin-top:10px;
+      margin-bottom:10px;
+      margin-left:auto;
+      margin-right:auto;
+  }
+  .show-title{
+      overflow:hidden;
+      margin-top:10px;
+      margin-left:10px;
+  }
+  .show-information{
+      display: flex;
+      margin-bottom:10px;
+      margin-left:0;
+      overflow:hidden;
+  }
+  .show-content{
+      margin-left:auto;
+      margin-right:auto;
+      margin-left:10px;
+  }
+  .show-img{
+      border: 1px solid rgba(0, 0, 0, 0.125);
+      border-radius: 0.25rem;
+      max-width: 100%;
+  }
+  .show-imgbox{
+      margin-top:10px;
+      margin-left:auto;
+      margin-right:auto;
+  }
+  .show-buttons{
+      margin-left:auto;
+      margin-right:auto;
+      text-align: center;
+  }
